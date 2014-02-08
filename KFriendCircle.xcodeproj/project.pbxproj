@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E505F8D18A6B7AB00549B38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E505F8C18A6B7AB00549B38 /* Foundation.framework */; };
+		2E505F8F18A6B7AB00549B38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E505F8E18A6B7AB00549B38 /* CoreGraphics.framework */; };
+		2E505F9118A6B7AB00549B38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E505F9018A6B7AB00549B38 /* UIKit.framework */; };
+		2E505F9718A6B7AB00549B38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E505F9518A6B7AB00549B38 /* InfoPlist.strings */; };
+		2E505F9918A6B7AB00549B38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E505F9818A6B7AB00549B38 /* main.m */; };
+		2E505F9D18A6B7AB00549B38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E505F9C18A6B7AB00549B38 /* AppDelegate.m */; };
+		2E505FA018A6B7AB00549B38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E505F9E18A6B7AB00549B38 /* Main.storyboard */; };
+		2E505FA318A6B7AB00549B38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E505FA218A6B7AB00549B38 /* ViewController.m */; };
+		2E505FA518A6B7AB00549B38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E505FA418A6B7AB00549B38 /* Images.xcassets */; };
+		2E505FAC18A6B7AB00549B38 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E505FAB18A6B7AB00549B38 /* XCTest.framework */; };
+		2E505FAD18A6B7AB00549B38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E505F8C18A6B7AB00549B38 /* Foundation.framework */; };
+		2E505FAE18A6B7AC00549B38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E505F9018A6B7AB00549B38 /* UIKit.framework */; };
+		2E505FB618A6B7AC00549B38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E505FB418A6B7AC00549B38 /* InfoPlist.strings */; };
+		2E505FB818A6B7AC00549B38 /* KFriendCircleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E505FB718A6B7AC00549B38 /* KFriendCircleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E505FAF18A6B7AC00549B38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E505F8118A6B7AB00549B38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E505F8818A6B7AB00549B38;
+			remoteInfo = KFriendCircle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E505F8918A6B7AB00549B38 /* KFriendCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFriendCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E505F8C18A6B7AB00549B38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E505F8E18A6B7AB00549B38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2E505F9018A6B7AB00549B38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2E505F9418A6B7AB00549B38 /* KFriendCircle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KFriendCircle-Info.plist"; sourceTree = "<group>"; };
+		2E505F9618A6B7AB00549B38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E505F9818A6B7AB00549B38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E505F9A18A6B7AB00549B38 /* KFriendCircle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KFriendCircle-Prefix.pch"; sourceTree = "<group>"; };
+		2E505F9B18A6B7AB00549B38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E505F9C18A6B7AB00549B38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E505F9F18A6B7AB00549B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E505FA118A6B7AB00549B38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E505FA218A6B7AB00549B38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E505FA418A6B7AB00549B38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2E505FAA18A6B7AB00549B38 /* KFriendCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KFriendCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E505FAB18A6B7AB00549B38 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2E505FB318A6B7AC00549B38 /* KFriendCircleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KFriendCircleTests-Info.plist"; sourceTree = "<group>"; };
+		2E505FB518A6B7AC00549B38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E505FB718A6B7AC00549B38 /* KFriendCircleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFriendCircleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E505F8618A6B7AB00549B38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E505F8F18A6B7AB00549B38 /* CoreGraphics.framework in Frameworks */,
+				2E505F9118A6B7AB00549B38 /* UIKit.framework in Frameworks */,
+				2E505F8D18A6B7AB00549B38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E505FA718A6B7AB00549B38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E505FAC18A6B7AB00549B38 /* XCTest.framework in Frameworks */,
+				2E505FAE18A6B7AC00549B38 /* UIKit.framework in Frameworks */,
+				2E505FAD18A6B7AB00549B38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E505F8018A6B7AB00549B38 = {
+			isa = PBXGroup;
+			children = (
+				2E505F9218A6B7AB00549B38 /* KFriendCircle */,
+				2E505FB118A6B7AC00549B38 /* KFriendCircleTests */,
+				2E505F8B18A6B7AB00549B38 /* Frameworks */,
+				2E505F8A18A6B7AB00549B38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E505F8A18A6B7AB00549B38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E505F8918A6B7AB00549B38 /* KFriendCircle.app */,
+				2E505FAA18A6B7AB00549B38 /* KFriendCircleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E505F8B18A6B7AB00549B38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E505F8C18A6B7AB00549B38 /* Foundation.framework */,
+				2E505F8E18A6B7AB00549B38 /* CoreGraphics.framework */,
+				2E505F9018A6B7AB00549B38 /* UIKit.framework */,
+				2E505FAB18A6B7AB00549B38 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E505F9218A6B7AB00549B38 /* KFriendCircle */ = {
+			isa = PBXGroup;
+			children = (
+				2E505F9B18A6B7AB00549B38 /* AppDelegate.h */,
+				2E505F9C18A6B7AB00549B38 /* AppDelegate.m */,
+				2E505F9E18A6B7AB00549B38 /* Main.storyboard */,
+				2E505FA118A6B7AB00549B38 /* ViewController.h */,
+				2E505FA218A6B7AB00549B38 /* ViewController.m */,
+				2E505FA418A6B7AB00549B38 /* Images.xcassets */,
+				2E505F9318A6B7AB00549B38 /* Supporting Files */,
+			);
+			path = KFriendCircle;
+			sourceTree = "<group>";
+		};
+		2E505F9318A6B7AB00549B38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E505F9418A6B7AB00549B38 /* KFriendCircle-Info.plist */,
+				2E505F9518A6B7AB00549B38 /* InfoPlist.strings */,
+				2E505F9818A6B7AB00549B38 /* main.m */,
+				2E505F9A18A6B7AB00549B38 /* KFriendCircle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E505FB118A6B7AC00549B38 /* KFriendCircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E505FB718A6B7AC00549B38 /* KFriendCircleTests.m */,
+				2E505FB218A6B7AC00549B38 /* Supporting Files */,
+			);
+			path = KFriendCircleTests;
+			sourceTree = "<group>";
+		};
+		2E505FB218A6B7AC00549B38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E505FB318A6B7AC00549B38 /* KFriendCircleTests-Info.plist */,
+				2E505FB418A6B7AC00549B38 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E505F8818A6B7AB00549B38 /* KFriendCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E505FBB18A6B7AC00549B38 /* Build configuration list for PBXNativeTarget "KFriendCircle" */;
+			buildPhases = (
+				2E505F8518A6B7AB00549B38 /* Sources */,
+				2E505F8618A6B7AB00549B38 /* Frameworks */,
+				2E505F8718A6B7AB00549B38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KFriendCircle;
+			productName = KFriendCircle;
+			productReference = 2E505F8918A6B7AB00549B38 /* KFriendCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E505FA918A6B7AB00549B38 /* KFriendCircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E505FBE18A6B7AC00549B38 /* Build configuration list for PBXNativeTarget "KFriendCircleTests" */;
+			buildPhases = (
+				2E505FA618A6B7AB00549B38 /* Sources */,
+				2E505FA718A6B7AB00549B38 /* Frameworks */,
+				2E505FA818A6B7AB00549B38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E505FB018A6B7AC00549B38 /* PBXTargetDependency */,
+			);
+			name = KFriendCircleTests;
+			productName = KFriendCircleTests;
+			productReference = 2E505FAA18A6B7AB00549B38 /* KFriendCircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E505F8118A6B7AB00549B38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Kyle Koser";
+				TargetAttributes = {
+					2E505FA918A6B7AB00549B38 = {
+						TestTargetID = 2E505F8818A6B7AB00549B38;
+					};
+				};
+			};
+			buildConfigurationList = 2E505F8418A6B7AB00549B38 /* Build configuration list for PBXProject "KFriendCircle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E505F8018A6B7AB00549B38;
+			productRefGroup = 2E505F8A18A6B7AB00549B38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E505F8818A6B7AB00549B38 /* KFriendCircle */,
+				2E505FA918A6B7AB00549B38 /* KFriendCircleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E505F8718A6B7AB00549B38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E505FA518A6B7AB00549B38 /* Images.xcassets in Resources */,
+				2E505F9718A6B7AB00549B38 /* InfoPlist.strings in Resources */,
+				2E505FA018A6B7AB00549B38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E505FA818A6B7AB00549B38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E505FB618A6B7AC00549B38 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E505F8518A6B7AB00549B38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E505FA318A6B7AB00549B38 /* ViewController.m in Sources */,
+				2E505F9D18A6B7AB00549B38 /* AppDelegate.m in Sources */,
+				2E505F9918A6B7AB00549B38 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E505FA618A6B7AB00549B38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E505FB818A6B7AC00549B38 /* KFriendCircleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E505FB018A6B7AC00549B38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E505F8818A6B7AB00549B38 /* KFriendCircle */;
+			targetProxy = 2E505FAF18A6B7AC00549B38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E505F9518A6B7AB00549B38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E505F9618A6B7AB00549B38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2E505F9E18A6B7AB00549B38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E505F9F18A6B7AB00549B38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E505FB418A6B7AC00549B38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E505FB518A6B7AC00549B38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E505FB918A6B7AC00549B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E505FBA18A6B7AC00549B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E505FBC18A6B7AC00549B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KFriendCircle/KFriendCircle-Prefix.pch";
+				INFOPLIST_FILE = "KFriendCircle/KFriendCircle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2E505FBD18A6B7AC00549B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KFriendCircle/KFriendCircle-Prefix.pch";
+				INFOPLIST_FILE = "KFriendCircle/KFriendCircle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2E505FBF18A6B7AC00549B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KFriendCircle.app/KFriendCircle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KFriendCircle/KFriendCircle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KFriendCircleTests/KFriendCircleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2E505FC018A6B7AC00549B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KFriendCircle.app/KFriendCircle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KFriendCircle/KFriendCircle-Prefix.pch";
+				INFOPLIST_FILE = "KFriendCircleTests/KFriendCircleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E505F8418A6B7AB00549B38 /* Build configuration list for PBXProject "KFriendCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E505FB918A6B7AC00549B38 /* Debug */,
+				2E505FBA18A6B7AC00549B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E505FBB18A6B7AC00549B38 /* Build configuration list for PBXNativeTarget "KFriendCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E505FBC18A6B7AC00549B38 /* Debug */,
+				2E505FBD18A6B7AC00549B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E505FBE18A6B7AC00549B38 /* Build configuration list for PBXNativeTarget "KFriendCircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E505FBF18A6B7AC00549B38 /* Debug */,
+				2E505FC018A6B7AC00549B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E505F8118A6B7AB00549B38 /* Project object */;
+}
