@@ -21,6 +21,9 @@
 		2E505FAE18A6B7AC00549B38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E505F9018A6B7AB00549B38 /* UIKit.framework */; };
 		2E505FB618A6B7AC00549B38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E505FB418A6B7AC00549B38 /* InfoPlist.strings */; };
 		2E505FB818A6B7AC00549B38 /* KFriendCircleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E505FB718A6B7AC00549B38 /* KFriendCircleTests.m */; };
+		2E505FC318A6B7CD00549B38 /* KFriendCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E505FC218A6B7CD00549B38 /* KFriendCircleView.m */; };
+		2E505FC518A6C1AA00549B38 /* Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E505FC418A6C1AA00549B38 /* Checkmark.png */; };
+		2E505FC718A8361400549B38 /* selector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E505FC618A8361400549B38 /* selector@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		2E505FB318A6B7AC00549B38 /* KFriendCircleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KFriendCircleTests-Info.plist"; sourceTree = "<group>"; };
 		2E505FB518A6B7AC00549B38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2E505FB718A6B7AC00549B38 /* KFriendCircleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFriendCircleTests.m; sourceTree = "<group>"; };
+		2E505FC118A6B7CD00549B38 /* KFriendCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFriendCircleView.h; sourceTree = "<group>"; };
+		2E505FC218A6B7CD00549B38 /* KFriendCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFriendCircleView.m; sourceTree = "<group>"; };
+		2E505FC418A6C1AA00549B38 /* Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkmark.png; sourceTree = "<group>"; };
+		2E505FC618A8361400549B38 /* selector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selector@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +119,15 @@
 		2E505F9218A6B7AB00549B38 /* KFriendCircle */ = {
 			isa = PBXGroup;
 			children = (
+				2E505FC118A6B7CD00549B38 /* KFriendCircleView.h */,
+				2E505FC218A6B7CD00549B38 /* KFriendCircleView.m */,
 				2E505F9B18A6B7AB00549B38 /* AppDelegate.h */,
 				2E505F9C18A6B7AB00549B38 /* AppDelegate.m */,
 				2E505F9E18A6B7AB00549B38 /* Main.storyboard */,
 				2E505FA118A6B7AB00549B38 /* ViewController.h */,
 				2E505FA218A6B7AB00549B38 /* ViewController.m */,
+				2E505FC418A6C1AA00549B38 /* Checkmark.png */,
+				2E505FC618A8361400549B38 /* selector@2x.png */,
 				2E505FA418A6B7AB00549B38 /* Images.xcassets */,
 				2E505F9318A6B7AB00549B38 /* Supporting Files */,
 			);
@@ -229,7 +240,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E505FA518A6B7AB00549B38 /* Images.xcassets in Resources */,
+				2E505FC518A6C1AA00549B38 /* Checkmark.png in Resources */,
 				2E505F9718A6B7AB00549B38 /* InfoPlist.strings in Resources */,
+				2E505FC718A8361400549B38 /* selector@2x.png in Resources */,
 				2E505FA018A6B7AB00549B38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +264,7 @@
 			files = (
 				2E505FA318A6B7AB00549B38 /* ViewController.m in Sources */,
 				2E505F9D18A6B7AB00549B38 /* AppDelegate.m in Sources */,
+				2E505FC318A6B7CD00549B38 /* KFriendCircleView.m in Sources */,
 				2E505F9918A6B7AB00549B38 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +392,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KFriendCircle/KFriendCircle-Prefix.pch";
 				INFOPLIST_FILE = "KFriendCircle/KFriendCircle-Info.plist";
@@ -391,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KFriendCircle/KFriendCircle-Prefix.pch";
 				INFOPLIST_FILE = "KFriendCircle/KFriendCircle-Info.plist";
@@ -460,6 +476,7 @@
 				2E505FBD18A6B7AC00549B38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E505FBE18A6B7AC00549B38 /* Build configuration list for PBXNativeTarget "KFriendCircleTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +485,7 @@
 				2E505FC018A6B7AC00549B38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

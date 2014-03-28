@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KFriendCircleView.h"
 
 @interface ViewController : UIViewController
+@property (retain, nonatomic) IBOutlet KFriendCircleView *circle;
+- (IBAction)play:(id)sender;
 
 @end
