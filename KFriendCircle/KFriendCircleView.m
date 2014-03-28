@@ -22,7 +22,7 @@
             [imgView setContentMode:UIViewContentModeScaleToFill];
             [self addSubview:imgView];
             [self.imageViews addObject:imgView];
-            [imgView release];
+            
             
         }
         
@@ -31,7 +31,6 @@
             label.text = name;
             label.adjustsFontSizeToFitWidth = YES;
             [self.userLabels addObject:label];
-            [label release];
         }
     }
     
@@ -70,7 +69,7 @@
     [imgView setContentMode:UIViewContentModeScaleToFill];
     [self addSubview:imgView];
     [self.imageViews addObject:imgView];
-    [imgView release];
+    
     
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 30)];
     label.text = user;
@@ -78,7 +77,7 @@
     label.textAlignment = NSTextAlignmentCenter;
     [self addSubview:label];
     [self.userLabels addObject:label];
-    [label release];
+    
     
     [self setNeedsDisplay];
     [self setNeedsLayout];

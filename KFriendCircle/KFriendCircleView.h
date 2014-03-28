@@ -12,15 +12,15 @@
 @interface KFriendCircleView : UIView
 
 
-@property(nonatomic, retain) NSArray *usernames;
+@property(nonatomic, strong) NSArray *usernames;
 
-@property (nonatomic, retain) NSMutableArray *imageViews;
-@property (nonatomic, retain) NSMutableArray *userLabels;
+@property (nonatomic, strong) NSMutableArray *imageViews;
+@property (nonatomic, strong) NSMutableArray *userLabels;
 
 @property(nonatomic) BOOL showSelector;
 @property(nonatomic) int selected;
 
-@property (nonatomic, retain) UIImageView *selector;
+@property (nonatomic, strong) UIImageView *selector;
 
 - (id)initWithFrame:(CGRect)frame pictures:(NSArray *)pics usernames:(NSArray *)users;
 
