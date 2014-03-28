@@ -1,7 +1,7 @@
 kFriendCircleView
 =================
 
-An iOS View to help cleanly display a group of friends in a flat style. Note that this currently does NOT use ARC
+An iOS View to help cleanly display a group of friends in a flat style. Now with ARC!
 
 How to Use:
 
