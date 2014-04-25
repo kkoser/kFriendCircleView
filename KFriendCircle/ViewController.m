@@ -21,6 +21,9 @@
     self.circle.showSelector = YES;
     [self.circle addUser:@"kkoser" withImage:[UIImage imageNamed:@"Checkmark.png"]];
     [self.circle addUser:@"kkoser" withImage:[UIImage imageNamed:@"Checkmark.png"]];
+    [self.circle addUser:@"kkoser" withImage:[UIImage imageNamed:@"Checkmark.png"]];
+    [self.circle addUser:@"kkoser" withImage:[UIImage imageNamed:@"Checkmark.png"]];
+    [self.circle addUser:@"kkoser" withImage:[UIImage imageNamed:@"Checkmark.png"]];
     
     [self.circle animate];
     self.circle.selected = 0;
