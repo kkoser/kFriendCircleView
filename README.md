@@ -3,6 +3,8 @@ kFriendCircleView
 
 An iOS View to help cleanly display a group of friends in a flat style. Now with ARC!
 
+![Gif Screenshot](https://github.com/kkoser/kFriendCircleView/blob/master/FriendCircle2.gif?raw=true)
+
 How to Use:
 
 1. Create a KFRiendCircleView, either in IB or in code using initWithFrame:Pictures:Usernames:
