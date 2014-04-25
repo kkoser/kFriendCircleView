@@ -16,7 +16,7 @@ Ex:
 
 in ViewController.h:
 
-    @property (retain, nonatomic) IBOutlet KFriendCircleView *circle;
+    @property (strong, nonatomic) IBOutlet KFriendCircleView *circle;
 
 in viewController.m:
 
